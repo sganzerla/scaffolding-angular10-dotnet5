@@ -34,10 +34,10 @@
   </thead>
   <tbody>
     <tr *ngFor="let dataItem of EmployeeList">
-      <td> {{ dataItem.Id }} </td>
+      <td> {{ dataItem.Id | number }} </td>
       <td> {{ dataItem.Name }} </td>
       <td> {{ dataItem.Department }} </td>
-      <td> {{ dataItem.DateOfJoining }} </td>
+      <td> {{ dataItem.DateOfJoining | date: 'dd/MM/yyyy' }} </td>
       <td>
         <button type="button" class="btn btn-light mr-1" data-toggle="modal" data-target="#exampleModal"
           (click)="editClick(dataItem)" data-backdrop="static" data-keyboard="false">
