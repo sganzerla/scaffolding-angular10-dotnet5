@@ -151,7 +151,7 @@ namespace WebAPI.Controllers
             catch (System.Exception)
             {
                 
-                return new JsonResult("annonymous.png");
+                return new JsonResult("anonnymous.png");
             }
         }
 

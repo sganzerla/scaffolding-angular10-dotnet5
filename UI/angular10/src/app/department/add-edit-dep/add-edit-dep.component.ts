@@ -30,7 +30,6 @@ export class AddEditDepComponent implements OnInit {
       .subscribe(res => {
         alert(res.toString());
       });
-
   }
 
   updateDepartment(): void {
@@ -43,8 +42,5 @@ export class AddEditDepComponent implements OnInit {
       .subscribe(res => {
         alert(res.toString());
       });
-
   }
-
-
 }
