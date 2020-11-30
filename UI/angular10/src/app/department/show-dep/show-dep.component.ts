@@ -15,8 +15,8 @@ export class ShowDepComponent implements OnInit {
   ActivateAddEditDepComp: boolean = false;
   dep: any;
 
-  DepartmentIdFilter: string;
-  DepartmentNameFilter: string;
+  DepartmentIdFilter: string = "";
+  DepartmentNameFilter: string = "";
   DepartmentListWithoutFilter: any = [];
   ngOnInit(): void {
     this.refreshDepList();
@@ -61,20 +61,19 @@ export class ShowDepComponent implements OnInit {
     });
   }
 
-  FilterFn(): void {
+  FilterFn(event: any) {
+    console.log(event)
     var DepartmentIdFilter = this.DepartmentIdFilter;
     var DepartmentNameFilter = this.DepartmentNameFilter;
 
-    this.DepartmentList = this.DepartmentListWithoutFilter.filter((el) => {
-      return el.Id.toString().trim().toLowerCase().includes(
+    this.DepartmentList = this.DepartmentListWithoutFilter.filter(function (el) {
+      return el.Id.toString().toLowerCase().includes(
         DepartmentIdFilter.toString().trim().toLowerCase()
-      )
-        &&
+      ) &&
         el.Name.toString().toLowerCase().includes(
           DepartmentNameFilter.toString().trim().toLowerCase()
-        );
+        )
     });
-
   }
 
   sortResult(prop: any, asc: any) {
