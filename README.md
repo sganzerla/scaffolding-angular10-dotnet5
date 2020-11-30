@@ -2,6 +2,18 @@
 
 Project scaffolfing simple for testing .Net 5 with Angular 10.
 
+## Employee
+
+![image](Resources/img/Captura%20de%20tela%20de%202020-11-30%2001-05-11.png)
+
+## Department
+
+![image](Resources/img/Captura%20de%20tela%20de%202020-11-30%2001-05-09.png)
+
+## Form
+
+![image](Resources/img/Captura%20de%20tela%20de%202020-11-30%2001-05-17.png)
+
 ## Technologies
 
 * .Net 5
