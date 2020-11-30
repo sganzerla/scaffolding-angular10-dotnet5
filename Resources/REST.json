@@ -1,0 +1,380 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-11-30T03:49:02.945Z",
+    "__export_source": "insomnia.desktop.app:v2020.4.2",
+    "resources": [
+        {
+            "_id": "req_0f73b8497d8e43c89ce168cff04a8201",
+            "parentId": "fld_8ec18d3ea0704d96975430d198596747",
+            "modified": 1606592816596,
+            "created": 1606448237498,
+            "url": "{{ api_url }}/api/Department/2",
+            "name": "Departments",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1605855355250.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_8ec18d3ea0704d96975430d198596747",
+            "parentId": "fld_a1a1a5043f9542f5b4b623d4d59c4859",
+            "modified": 1606592807951,
+            "created": 1606592807951,
+            "name": "Deparment",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1606592807951,
+            "_type": "request_group"
+        },
+        {
+            "_id": "fld_a1a1a5043f9542f5b4b623d4d59c4859",
+            "parentId": "wrk_07b14e80c428452ab5b470440224eb8c",
+            "modified": 1606444392947,
+            "created": 1606444392947,
+            "name": "API-DOTNET5-ANGULAR10",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1606444392947,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_07b14e80c428452ab5b470440224eb8c",
+            "parentId": null,
+            "modified": 1601668110290,
+            "created": 1601668110290,
+            "name": "api-node-mongodb-send-email",
+            "description": "",
+            "scope": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_d135d1557004426aa3aec3378e688125",
+            "parentId": "fld_8ec18d3ea0704d96975430d198596747",
+            "modified": 1606592820202,
+            "created": 1606447949556,
+            "url": "{{ api_url }}/api/Department",
+            "name": "Departments",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "  {    \n\t\t\"Id\": 2,\n    \"Name\": \"Suporte\"\n  }"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_faafaa7f6dc6451a913805d9054c2c9c"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1605855355225.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_5795aea5605848b48a58088f366af46b",
+            "parentId": "fld_8ec18d3ea0704d96975430d198596747",
+            "modified": 1606592822371,
+            "created": 1606444521016,
+            "url": "{{ api_url }}/api/Department",
+            "name": "Departments",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1605855355213.4375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_1eb2eaa7b75242ea97f71c008b46519b",
+            "parentId": "fld_8ec18d3ea0704d96975430d198596747",
+            "modified": 1606592818387,
+            "created": 1606446847083,
+            "url": "{{ api_url }}/api/Department",
+            "name": "Departments",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "",
+                "text": "  {    \n    \"Name\": \"IT2\"\n  }\n"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_81d5474524c84ca58d85c088a822b5f0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1605855355200.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_9ef2ea6baada477592dc5d64d918a4da",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606592895794,
+            "created": 1606592831847,
+            "url": "{{ api_url }}/api/Employee/2",
+            "name": "Employee",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1605855355250.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "parentId": "fld_a1a1a5043f9542f5b4b623d4d59c4859",
+            "modified": 1606592831842,
+            "created": 1606592831842,
+            "name": "Employee",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1606592802735,
+            "_type": "request_group"
+        },
+        {
+            "_id": "req_b7fbb997a30743d2bf33c9bd3f69ff64",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606594876535,
+            "created": 1606592831846,
+            "url": "{{ api_url }}/api/Employee",
+            "name": "Employee",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "  {\n    \"Id\": 2,\n    \"Name\": \"HeitoCVVr\",\n    \"Department\": \"IT\",\n    \"DateOfJoining\": \"2020-05-23T00:00:00\"\n  }"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_faafaa7f6dc6451a913805d9054c2c9c"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1605855355225.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_e914c70ad5d349cabdf147f587b26d67",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606592914536,
+            "created": 1606592831844,
+            "url": "{{ api_url }}/api/Employee",
+            "name": "Employee",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1605855355213.4375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_52f907f8aa4a4d7b9fb316df1cc12ca6",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606619603740,
+            "created": 1606619567165,
+            "url": "{{ api_url }}/api/Employee/Departments",
+            "name": "Employee/Departments",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1605855355207.1875,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_669d325f7c594980a3c4a661607b49f5",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606594753305,
+            "created": 1606592831845,
+            "url": "{{ api_url }}/api/Employee",
+            "name": "Employee",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "",
+                "text": "{\n    \n    \"Name\": \"Heitor\",\n    \"Department\": \"IT\",\n    \"DateOfJoining\": \"2020-05-23T00:00:00\",\n    \"PhotoFileName\": \"heitror.png\"\n  }"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_81d5474524c84ca58d85c088a822b5f0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1605855355200.9375,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_a4abdf8fbf624705a71ed35428567d41",
+            "parentId": "fld_9c3a63b3fba34dc29f0ad67bf1077901",
+            "modified": 1606607072449,
+            "created": 1606606870337,
+            "url": "{{ api_url }}/api/Employee/SaveFile",
+            "name": "Employee/Photos",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [
+                    {
+                        "name": "uploadFile",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_972e7aac953f41ef98740af81ace4506",
+                        "type": "file",
+                        "fileName": "/home/dev/Imagens/auth.png"
+                    }
+                ]
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_81d5474524c84ca58d85c088a822b5f0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1603793275048.2188,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_ce65d5ad9ffcbb5c0114eca6191076a4a2c21526",
+            "parentId": "wrk_07b14e80c428452ab5b470440224eb8c",
+            "modified": 1606444660987,
+            "created": 1601668110348,
+            "name": "Base Environment",
+            "data": {
+                "base_url": "http://localhost:3000",
+                "api_url": "https://localhost:5001",
+                "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNzk0MjM5OTlhNWRhNzc0ODc2N2FiMiIsImlhdCI6MTYwMjcwMjExMiwiZXhwIjoxNjAyNzg4NTEyfQ.Y2YfSR21rUrJCfSWe7snBHNmGZ_GpQpt5NZrgjp7pC4"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "base_url",
+                    "api_url",
+                    "token"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1601668110348,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_ce65d5ad9ffcbb5c0114eca6191076a4a2c21526",
+            "parentId": "wrk_07b14e80c428452ab5b470440224eb8c",
+            "modified": 1601668110349,
+            "created": 1601668110349,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_0187682c377345659732bcb73f381ac2",
+            "parentId": "wrk_07b14e80c428452ab5b470440224eb8c",
+            "modified": 1601668110293,
+            "created": 1601668110293,
+            "fileName": "api-node-mongodb-send-email",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
